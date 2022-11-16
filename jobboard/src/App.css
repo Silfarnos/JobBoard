@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.ttf") format("ttf");
+  src: url("../fonts/Roboto-BlackItalic.ttf") format("ttf");
+  src: url("../fonts/Roboto-Bold.ttf") format("ttf");
+  src: url("../fonts/Roboto-BoldItalic.ttf") format("ttf");
+  src: url("../fonts/Roboto-Italic.ttf") format("ttf");
+  src: url("../fonts/Roboto-Light.ttf") format("ttf");
+  src: url("../fonts/Roboto-LightItalic.ttf") format("ttf");
+  src: url("../fonts/Roboto-Medium.ttf") format("ttf");
+  src: url("../fonts/Roboto-MediumItalic.ttf") format("ttf");
+  src: url("../fonts/Roboto-Regular.ttf") format("ttf");
+  src: url("../fonts/Roboto-Thin.ttf") format("ttf");
+  src: url("../fonts/Roboto-ThinItalic.ttf") format("ttf");
+
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.testclass {
+  background-color: rgb(227, 227, 227);
+  height: 80px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(15, 15, 15, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  gap: 5%;
+  z-index: 99;
+  padding: 0px 20px;
+}
+
+.testclass a {
+  color: black;
+}
+
+.testclass a:hover {
+  text-decoration: underline;
+}
+
+p{
+  margin: 5px 0px;
+}
+/* .siteLogo{
+  color:#FFD700 ;
+} */
+
+.ProfileContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: line;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(15, 15, 15, 0.28);
+  overflow: hidden;
+  margin: auto;
+  margin-top: 5px;
+}
+img{
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  margin: auto;
+}
+
+.ProfileInfo {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5%;
+}
+
+.ProfileInfo form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ProfileInfo form p {
+  margin: 0;
+  color: red;
+  font-size: 12px;
+}
+
+.ProfileColor {
+  width: 60%;
+  margin-left: auto;
+  transform: skewX(-7deg) translateX(10%);
+  background-color: rgba(149, 165, 166, 1.0);
+}
+
+.joboffers {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: rgb(227, 227, 227);
+  box-shadow: 0 0 10px rgba(15, 15, 15, 0.6);
+  overflow: hidden;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  /* color: #FFD700; */
+  padding-bottom: 25px;
+}
+
+.pointer:hover {
+  cursor: pointer;
+  color: red;
+}
+
+#root {
+  background-color: rgb(227, 227, 227);
+  padding-bottom: 15px;
+}
+
+.counter {
+  margin-top: 15px;
+  margin-left: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.Profile_Pic {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: cover;
+}
